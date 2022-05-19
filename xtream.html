@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="https://www.facebook.com/profile.php?id=100006088516717" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://instagram.com/xtream_developer" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="https://youtube.com/channel/UCYQ-BwkgC6stajayDH1Ehsw" class="w3-bar-item w3-button"><i class="fa fa-youtube"></i></a>
+  <a href="https://www.linkedin.com/in/mohit-kumar-chauhan-967158111" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+<marquee><font face="cursive">WELCOME TO XTREAM DEVELOPER</font></marquee>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>XTREAM DEVELOPER</b></h1>
+    <h6>Welcome To Our World Of <span class="w3-tag">CODING</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="mohit1.jpg" alt="Fashion Blog" width="1600" height="1050">
+    <div class="w3-display-left w3-padding-large">
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">SUBSCRIBE</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>HTML</h3>
+          <h5>ABOUT HTML ?  , <span class="w3-opacity">MAY 16, 2019</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="html.jpeg" style="width:100%" class="w3-padding-16">
+          <p><strong>ABOUT HTML!</strong>HTML stands for Hyper Text Markup Language.</p>
+          <p>HTML is the standard markup language for creating Web pages.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src=javascript.jpeg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                  <p>Great blog post! Following</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>JAVA SCRIPT</h3>
+          <h5>ABOUT JAVA SCRIPT, <span class="w3-opacity">MAY 16, 2022</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="javascript.jpeg" style="width:100%" class="w3-padding-16">
+          <p><strong>JAVA SCRIPT!</strong>JavaScript is the world's most popular programming language.JavaScript is the programming language of the Web</p>
+          <p>JavaScript is easy to learn.This tutorial will teach you JavaScript from basic to advanced.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>Replies  </b> <span class="w3-tag w3-white">2</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+                <img src="c.jpeg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Amber <span class="w3-opacity w3-medium">April 26, 2019, 10:52 PM</span></h4>
+                <p>Love your blog page! Simply the best! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="6.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Angie <span class="w3-opacity w3-medium">April 23, 2019, 9:12 PM</span></h4>
+                <p>Love hats!!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>C LANGUAGE</h3>
+          <h5>ABOUT C LANGAUGE, <span class="w3-opacity">MAY 16, 2022</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="c.jpeg" style="width:100%" class="w3-padding-16">
+          <p><strong>C LANGUAGE!</strong> C is an imperative procedural language supporting structured programming, lexical variable scope, and recursion, with a static type system.</p>
+          <p> It was designed to be compiled to provide low-level access to memory and language constructs that map efficiently to machine instructions, all with minimal runtime support.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="8.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Jane <span class="w3-opacity w3-medium">May 16, 2022, 7:22 PM</span></h4>
+                <p>That was a great runway show! Thanks for everything.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="9.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>John <span class="w3-opacity w3-medium">April 8, 2019, 10:32 PM</span></h4>
+                <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="10.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Anja <span class="w3-opacity w3-medium">May 16, 2022, 9:12 PM</span></h4>
+                <p>Cant wait for the runway to start!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-black w3-margin">
+        <img src="mohit.jpg" style="width:100%" class="w3-black">
+        <div class="w3-container w3-black">
+          <center><h2><font face="Brush Script" color="red">XTREAM DEVELOPER</font></h2></center>
+          <font face="cursive"><p style="color:white;">WE ARE STUDENTS FROM DIFFERENT COLLEGES BUT OUR AIM IS SAME TO MAKE EVERY STUDENT OR PERSON KNOWLEDGEFULL. FOR THAT WE START THAT THERE OUR TEAM HELPS YOU IN EVERY FIELD OF CODING</p></i></font>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>TEAM</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="13.jpg" class="w3-left w3-margin-right" style="width:100px" height="200">
+            <span class="w3-large"><FONT SIZE="3" FACE="CURSIVE" COLOR="RED"><center><P>FOUNDER - MOHIT KUMAR CHAUHAN</P></center></FONT><P><center>BRANCH- INFROMATION TECHNOLOGY<center></P><CENTER><P>FROM- AKTU</P><CENTER></span>
+            <br>
+          </li>
+          <li class="w3-padding-16">
+          <li class="w3-padding-16">
+            <img src="amitesh.jpg"  class="w3-left w3-margin-right" style="width:100px" height="200">
+            <span class="w3-large"><FONT SIZE="3" FACE="CURSIVE" COLOR="blue"><center><P>TEAM MEMBER - AMITESH KUMAR</P></center></FONT><center><P>BRANCH- INFROMATION TECHNOLOGY</P></center><CENTER><P>FROM- AKTU</P><CENTER></span>
+            <br>
+          </li>
+          <li class="w3-padding-16">
+            <img src="rohit.jpg"  class="w3-left w3-margin-right" style="width:100px" height="200">
+            <span class="w3-large"><FONT SIZE="3" FACE="CURSIVE" COLOR="blue"><center><P>TEAM MEMBER -ROHIT KUSHWAHA</P></center></FONT><center><P>BRANCH- ELECTRICAL ENGINEERING</P></center><CENTER><P>FROM- AKTU</P><CENTER></span>
+            <br>
+          </li>
+          <li class="w3-padding-16">
+            <img src="karan.jpeg" class="w3-left w3-margin-right w3-sepia" style="width:100px">
+            <span class="w3-large"><FONT SIZE="3" FACE="CURSIVE" COLOR="blue"><center><P>TEAM MEMBER -KARAN KUMAR</P><center></FONT><center><P>BRANCH- ELECTRICAL ENGINEERING</P></center><CENTER><P>FROM- AKTU</P><CENTER></span>
+            <br>
+          </li>
+	<li class="w3-padding-16">
+            <img src="rishabh.jpeg" class="w3-left w3-margin-right w3-sepia" style="width:100px">
+            <span class="w3-large"><FONT SIZE="3" FACE="CURSIVE" COLOR="blue"><center><P>TEAM MEMBER -RISHABH RAWAT<center></P></FONT><center><P>BRANCH- ELECTRICAL ENGINEERING</P></center><CENTER><P>FROM- AKTU</span>
+            <br>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+      <!-- Advertising -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Advertise</h4>
+        </div>
+        <div class="w3-container w3-black">
+         <video controls loop autoplay height="700" width="300">
+      <source src="09.mp4" type="video/mp4" />
+	</video>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-white">
+          <h1>We Works On</h1>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">C LANGAUGE</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">MATLAB</span> 
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">C++</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">HTML</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">PYTHON</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">JAVA</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">OPENCV</span> 
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Specializations In -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+
+          <h4>Specializations In </h4>
+        </div>
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p><img src="c++.jpg" style="width:100%"></p>
+            <p><img src="c language.jpg"style="width:100%"></p>
+          </div>
+          <div class="w3-col s6">
+            <p><img src="java.jpeg" alt="Men in Hats" style="width:100%" class="w3-grayscale"></p>
+            <p><img src="python.jpeg" alt="Jeans" style="width:100%"></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Use</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <a href="https://www.facebook.com/profile.php?id=100006088516717"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+          <a href="https://instagram.com/xtream_developer"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+          <a href="https://youtube.com/channel/UCYQ-BwkgC6stajayDH1Ehsw"><i class="fa fa-youtube w3-hover-opacity"></i></a>
+          <a href="https://www.linkedin.com/in/mohit-kumar-chauhan-967158111"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Subscribe</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Enter your e-mail below and get notified on the latest information posts.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest information and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Powered by <a href="https://www.emperorofediting.weebly.com">personal site :)</a></p>
+</footer>
+</body>
+</html>
